@@ -4,6 +4,7 @@
 
 ### Here's what I did:
 
+```
 vagrant@ubuntu-bionic:~/course/docker-katas/labs/volumes$ pwd
 
 /home/vagrant/course/docker-katas/labs/volumes
@@ -25,6 +26,7 @@ vagrant@ubuntu-bionic:~/course/docker-katas/labs/volumes$ docker container run -
 
 10.0.2.2 - - [14/Jan/2020:12:22:42 +0000] "GET / HTTP/1.1" 200 612 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" "-"
 10.0.2.2 - - [14/Jan/2020:12:23:11 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" "-"
+```
 
 ### And in the localhost:8080 I saw the nginx page
 
@@ -32,6 +34,7 @@ vagrant@ubuntu-bionic:~/course/docker-katas/labs/volumes$ docker container run -
 
 ### And here's what I did with the volumes:
 
+```
 vagrant@ubuntu-bionic:~/course/docker-katas/labs/volumes$ docker volume create data
 data
 vagrant@ubuntu-bionic:~/course/docker-katas/labs/volumes$ docker volume ls
@@ -54,3 +57,4 @@ vagrant@ubuntu-bionic:~/course/docker-katas/labs/volumes$ docker container run -
 
 vagrant@ubuntu-bionic:~/course/docker-katas/labs/volumes$ sudo ls /var/lib/docker/volumes/data/_data/
 50x.html  index.html
+```
