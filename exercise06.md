@@ -1,9 +1,12 @@
 # Exercise6
 
 CLI:
-kuva
+
+![cmd](https://github.com/harrinupponen/docker-course/images/compose-hello-world-cmd.png "CMD")
+
 docker-compose -file:
-kuva
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 
 I made the change to the compose file to use Ubuntu image and with command "echo "Hello from me"
