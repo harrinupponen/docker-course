@@ -3,8 +3,11 @@
 I followed the instructions to make a network for mysql-db and wordpress server.
 And I managed to do that.
 
+![WP-server](https://github.com/harrinupponen/docker-course/blob/master/images/wp-server-running.PNG "WP-server")
+
 Here' the inspection:
 
+```
 [
     {
         "Name": "if-wordpress",
@@ -50,3 +53,4 @@ Here' the inspection:
         "Labels": {}
     }
 ]
+```
