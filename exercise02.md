@@ -34,12 +34,16 @@ docker container run -ti alpine
 
 I listed the directories:
 
+```
 / # ls
 bin    dev    etc    home   lib    media  mnt    opt    proc   root   run    sbin   srv    sys    tmp    usr    var
+```
 
 Ran the command
 
+```
 rm -rf /
+``` 
 
 Tried to list the folders and got answer "Not found". So, all gone.
 
