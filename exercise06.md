@@ -2,7 +2,7 @@
 
 CLI:
 
-![cmd](https://github.com/harrinupponen/docker-course/images/compose-hello-world-cmd.png "CMD")
+![cmd](https://github.com/harrinupponen/docker-course/blob/master/images/compose-hello-world-cmd.PNG "CMD")
 
 docker-compose -file:
 
