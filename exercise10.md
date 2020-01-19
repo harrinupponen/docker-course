@@ -1,6 +1,8 @@
 # Exercise10
 
-I followed the instructions to make a network for mysql-db and wordpress server.
+I followed the instructions 
+https://github.com/eficode/docker-katas/blob/master/labs/09-multi-container.md 
+to make a network for mysql-db and wordpress server.
 And I managed to do that.
 
 ![WP-server](https://github.com/harrinupponen/docker-course/blob/master/images/wp-server-running.PNG "WP-server")
@@ -54,3 +56,8 @@ Here' the inspection:
     }
 ]
 ```
+### Compose section
+
+I don't know if this is even close. My time ran out...
+
+![WP-compose](https://github.com/harrinupponen/docker-course/blob/master/images/wordpress-compose-file.PNG "WP-compose")
